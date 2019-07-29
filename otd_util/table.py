@@ -29,3 +29,12 @@ def bar(d, x, y):
     plt.xlabel(x)
     plt.ylabel(y)
     plt.show()
+
+def histogram(d, label, bins=None):
+    assert not bins or type(bins) == int, "If bins is provided, it should be an integer."
+    df = pd.DataFrame(d)
+    plt.hist(d[label])
+    plt.xlabel(label)
+    plt.ylabel("Frequency")
+    plt.show()
+
