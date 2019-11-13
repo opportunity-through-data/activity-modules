@@ -1,0 +1,16 @@
+numpy intro:
+- here’s an array and how to create it
+- adding to an array (append)
+- selecting items from the array (item)
+- get the length (len)
+- insert/delete items
+- convenient for math (multiply an array by a scalar, add two arrays, multiply two arrays)
+- check for understanding: add these two arrays, multiply each element of array by 2, get the third item in this array
+array arithmetic (mean, std):
+- mean/std: mean/std of ratings per decade, fill in function that calculates the mean of an array, we’ll provide the pandas code to visualize the distributions
+- count_nonzero (ex. how many ratings are greater than 9?)
+random.choice (sampling):
+- can get chance of movie in 1980, but we can also estimate by sampling
+- sample 10 movies, calculate proportion of movies that are in 1980
+- fill in function that takes an array, returns proportion of decades that == 1980
+- as sample size gets bigger, proportion seems more accurate
